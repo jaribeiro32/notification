@@ -1,0 +1,26 @@
+{
+  "name": "jaribeiro32/notification",
+  "description": "This is a library that uses composer as the basis for generating email notification",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jhonny Ribeiro",
+      "email": "contato@conectatecnologia.com.br",
+      "homepage": "https://conectatecnologia.com.br",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "phpmailer/phpmailer": "~6.1"
+  },
+  "config": {
+    "vendor-dir": "lib_ext"
+  },
+  "autoload": {
+    "psr-4": {
+      "Notification\\": "_app"
+    }
+  }
+}
